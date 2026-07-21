@@ -1,23 +1,15 @@
-/* ==========================================
-   TASK 1: Navigation Logo
-   ========================================== */
+
 nav img {
   width: 180px;
   margin: 0 auto;
-  display: block; /* Ensures centering with margin: 0 auto */
+  display: block; 
 }
 
-/* ==========================================
-   TASK 2: Navigation Spans
-   ========================================== */
 nav span {
   margin: 10px 0;
   display: inline-block;
 }
 
-/* ==========================================
-   TASKS 3 & 4: Content Container & Scrollbar
-   ========================================== */
 .content {
   height: 500px;
   margin: 10px auto;
@@ -28,9 +20,6 @@ nav span {
   margin: 0 auto;
 }
 
-/* ==========================================
-   TASK 5: Header & H1 Title
-   ========================================== */
 .header {
   height: 320px;
 }
@@ -40,9 +29,6 @@ nav span {
   margin: 0 auto;
 }
 
-/* ==========================================
-   TASK 6: Order Now Button
-   ========================================== */
 .button {
   width: 200px;
   padding: 20px;
@@ -51,9 +37,6 @@ nav span {
   text-align: center;
 }
 
-/* ==========================================
-   TASK 7: Nutrition Facts List
-   ========================================== */
 ul.nutrition {
   padding: 20px;
   list-style: none;
