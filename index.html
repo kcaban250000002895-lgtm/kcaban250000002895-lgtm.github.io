@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kristan Paul B. Caban | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
 
-  <!-- Header Navigation -->
+  <!-- Header / Navigation Bar -->
   <header>
     <a href="#home" class="logo">Paul!</a>
     <nav>
@@ -37,77 +37,100 @@
 
     <!-- About Section -->
     <section id="about" class="content-section">
-      <h2>About Me</h2>
-      <p>
-        I am currently a 2nd-year Information Technology student passionate about web development, 
-        programming, and learning how technology shapes the world. I'm constantly expanding my skill 
-        set through university projects and personal study.
-      </p>
-      
-      <h3>Tech Stack & Tools</h3>
-      <ul>
-        <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
-        <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
-      </ul>
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am currently a 2nd-year Information Technology student passionate about web development, 
+          programming, and learning how technology shapes the world. I'm constantly expanding my skill 
+          set through university projects and personal study.
+        </p>
+        
+        <h3>Tech Stack & Tools</h3>
+        <ul class="skills-list">
+          <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
+          <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+        </ul>
+      </div>
     </section>
 
     <!-- Activities Section -->
     <section id="activities" class="content-section">
-      <h2>Course Activities</h2>
-      <p>Here are some of the hands-on lab activities and tasks I've completed:</p>
-      
-      <div class="card-grid">
-        <div class="card">
-          <h3>Activity 1.1</h3>
-          <p>HTML page structure, semantic elements, and text formatting basics.</p>
-          <a href="#" class="card-btn">Open Activity &rarr;</a>
-        </div>
+      <div class="container">
+        <h2>Course Activities</h2>
+        <p>Here are some of the hands-on lab activities and tasks I've completed:</p>
+        
+        <div class="card-grid">
+          <div class="card">
+            <h3>Activity 1.1</h3>
+            <p>HTML page structure, semantic elements, and text formatting basics.</p>
+            <a href="#" class="card-btn">Open Activity &rarr;</a>
+          </div>
 
-        <div class="card">
-          <h3>Activity 1.2</h3>
-          <p>CSS layout techniques, styling components, and color schemes.</p>
-          <a href="#" class="card-btn">Open Activity &rarr;</a>
-        </div>
+          <div class="card">
+            <h3>Activity 1.2</h3>
+            <p>CSS layout techniques, styling components, and color schemes.</p>
+            <a href="#" class="card-btn">Open Activity &rarr;</a>
+          </div>
 
-        <div class="card">
-          <h3>Activity 2.1</h3>
-          <p>Interactive web elements and dynamic styling basics.</p>
-          <a href="#" class="card-btn">Open Activity &rarr;</a>
+          <div class="card">
+            <h3>Activity 2.1</h3>
+            <p>Interactive web elements and dynamic styling basics.</p>
+            <a href="#" class="card-btn">Open Activity &rarr;</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Achievements Section -->
     <section id="achievements" class="content-section">
-      <h2>Achievements & Milestones</h2>
-      <p>Recognitions, certifications, and highlights from my academic journey:</p>
+      <div class="container">
+        <h2>Achievements & Certifications</h2>
+        <p>Certifications and course completions from Coursera:</p>
 
-      <div class="achievement-list">
-        <div class="achievement-item">
-          <h3>🏆 Academic Honor / Dean's List</h3>
-          <p>Recognized for maintaining strong academic performance during university coursework.</p>
-        </div>
+        <div class="achievement-list">
+          <!-- Achievement 1 -->
+          <div class="achievement-item">
+            <h3>
+              🎓 <a href="https://www.coursera.org/account/accomplishments/verify/YOUR_ID_HERE" target="_blank" rel="noopener noreferrer">AI for Everyone</a>
+            </h3>
+            <p><strong>Provider:</strong> Coursera</p>
+            <p>Gained a foundational understanding of AI concepts, machine learning workflows, and practical applications in modern industry.</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/YOUR_ID_HERE" target="_blank" rel="noopener noreferrer" class="cert-link">Verify Certificate &rarr;</a>
+          </div>
 
-        <div class="achievement-item">
-          <h3>📜 Web Development Foundations</h3>
-          <p>Completed hands-on training and coursework focused on frontend web design.</p>
-        </div>
+          <!-- Achievement 2 -->
+          <div class="achievement-item">
+            <h3>
+              🎓 <a href="https://www.coursera.org/account/accomplishments/verify/YOUR_ID_HERE" target="_blank" rel="noopener noreferrer">Introduction to Generative AI</a>
+            </h3>
+            <p><strong>Provider:</strong> Coursera</p>
+            <p>Learned the core concepts of Generative AI, Large Language Models (LLMs), and how generative models are created and applied.</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/YOUR_ID_HERE" target="_blank" rel="noopener noreferrer" class="cert-link">Verify Certificate &rarr;</a>
+          </div>
 
-        <div class="achievement-item">
-          <h3>💻 Active IT Organization Member</h3>
-          <p>Participating in university tech workshops, coding events, and group projects.</p>
+          <!-- Achievement 3 -->
+          <div class="achievement-item">
+            <h3>
+              🎓 <a href="https://www.coursera.org/account/accomplishments/verify/YOUR_ID_HERE" target="_blank" rel="noopener noreferrer">Introduction to Artificial Intelligence (AI)</a>
+            </h3>
+            <p><strong>Provider:</strong> Coursera</p>
+            <p>Explored basic principles of AI, machine learning, neural networks, and real-world use cases for artificial intelligence technology.</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/YOUR_ID_HERE" target="_blank" rel="noopener noreferrer" class="cert-link">Verify Certificate &rarr;</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="content-section">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out to me for collaborations, questions, or just a quick chat!</p>
-      
-      <div class="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/kcaban250000002895-lgtm" target="_blank">github.com/kcaban250000002895-lgtm</a></p>
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me for collaborations, questions, or just a quick chat!</p>
+        
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/kcaban250000002895-lgtm" target="_blank" rel="noopener noreferrer">github.com/kcaban250000002895-lgtm</a></p>
+        </div>
       </div>
     </section>
   </main>
