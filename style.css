@@ -148,4 +148,27 @@ body {
     width: 220px;
     height: 220px;
   }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; 
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+
+section {
+  padding: 80px 20px;
+  min-height: 80vh; 
+}
+  
 }
