@@ -200,17 +200,20 @@ nav a:hover {
 
 .card-img {
   width: 100%;
-  height: 180px;
-  object-fit: contain;
-  background-color: #0d1117
+  max-width: 200px;         
+  aspect-ratio: 1 / 1;      
+  object-fit: contain;      
+  background-color: #0d1117;
+  display: block;
+  margin: 0 auto 15px;     
   border-radius: 6px;
-  margin-bottom: 12px;
   border: 1px solid #30363d;
-  transition: opacity 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .card-img:hover {
-  opacity: 0.85;
+  opacity: 0.9;
+  transform: scale(1.02);  
 }
 
 .achievement-list {
