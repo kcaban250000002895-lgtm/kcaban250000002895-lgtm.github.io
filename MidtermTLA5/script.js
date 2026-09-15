@@ -48,14 +48,16 @@ function convertMarkdown() {
   return html;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function init() {
   const markdownInput = document.getElementById('markdown-input');
   if (markdownInput) {
     markdownInput.addEventListener('input', convertMarkdown);
+    convertMarkdown(); // Run once on load
   }
-});
+}
 
-const markdownInput = document.getElementById('markdown-input');
-if (markdownInput) {
-  markdownInput.addEventListener('input', convertMarkdown);
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
 }
