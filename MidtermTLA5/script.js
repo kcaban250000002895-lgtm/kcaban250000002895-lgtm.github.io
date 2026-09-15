@@ -52,7 +52,7 @@ function init() {
   const markdownInput = document.getElementById('markdown-input');
   if (markdownInput) {
     markdownInput.addEventListener('input', convertMarkdown);
-    convertMarkdown(); // Run once on load
+    convertMarkdown(); 
   }
 }
 
